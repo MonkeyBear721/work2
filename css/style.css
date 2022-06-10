@@ -1,0 +1,575 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------------------------------*/
+
+body {
+	width: 100%;
+	height: 100%;
+	font-family: 'Noto Sans TC', sans-serif;
+	position: relative;
+}
+
+header {
+	width: 1366px;
+	height: 769px;
+	margin: 0 auto;
+	background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/bg_home.svg");
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+/*最上面*/
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 1086px;
+	height: 40px;
+	padding-top: 24px;
+	margin-bottom: 54px;
+	margin-left: 140px;
+	margin-right: 140px;
+}
+
+.logo {
+	width: 218.06px;
+}
+
+.program_top {
+	width: 128px;
+	height: 40px;
+	background: #FF5D50;
+	color: #FFFFFF;
+	border-radius: 22px;
+	text-align: center;
+	line-height: 40px;
+}
+
+/*你愛我像誰與右邊圖片*/
+.content {
+	display: flex;
+	align-items: center;
+	width: 1086px;
+	height: 534px;
+	margin-bottom: 217px;
+	margin-left: 140px;
+	margin-right: 140px;
+}
+
+.text_topbox {
+	width: 451px;
+	line-height: 50px;
+	margin-right: 102px;
+}
+
+.text_c {
+	font-size: 18px;
+	color: #56C4C5;
+}
+
+.text_u {
+	font-size: 48px;
+	color: #221E1F;
+	line-height: 70px;
+	font-weight: bold;
+}
+
+.text_t {
+	font-size: 20px;
+	color: #221E1F;
+}
+
+.home {
+	width: 532px;
+	height: 534px;
+}
+
+.blueball {
+	position: absolute;
+	left: -222px;
+	top: 589px;
+	z-index: -1;
+	overflow: hidden;
+}
+.top{
+    width: 71px;
+    height: 71px;
+    background: #56C4C5 0% 0% no-repeat padding-box;
+    border-radius: 50%;
+    position: fixed;
+    top:667px;
+    right:57px;
+}
+.top_content{
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 71px;
+}
+
+
+
+.bg {
+	width: 1366px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	width: 1086px;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.san {
+	width: 1086px;
+	margin-bottom: 48px;
+	margin-left: 140px;
+}
+
+.platforms {
+	width: 1086px;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	margin-left: 140px;
+}
+
+.platform {
+	padding-right: 180px;
+}
+
+.platformimg {
+	width: 90px;
+	height: 90px;
+}
+
+.p_title {
+	font-size: 24px;
+	margin-bottom: 24px;
+	font-weight: bold;
+}
+
+.p_detail {
+	font-size: 16px;
+	color: #747474;
+	margin-bottom: 100px;
+}
+
+.text_middle {
+	margin-left: 140px;
+	width: 1086px;
+}
+
+.text_middle_content_top {
+	margin-bottom: 16px;
+}
+
+.text_middle_content_bottom {
+	font: 50px;
+	margin-bottom: 48px;
+}
+
+/*四角色介紹*/
+
+.people {
+	width: 1086px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 140px;
+}
+
+.people_block {
+	width: 260px;
+	height: 388px;
+	margin-right: 16px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;
+}
+
+.people_img {
+	width: 260px;
+	height: 260px;
+	border-radius: 12px 12px 0px 0px;
+}
+
+.people_title {
+	font-size: 16px;
+	color: #56C4C5;
+	padding-top: 16px;
+	padding-bottom: 16px;
+
+}
+
+.people_introduce {
+	width: 228px;
+	height: 48px;
+	font-size: 16px;
+	color: #221E1F;
+	padding-left: 16px;
+	padding-right: 16px;
+	line-height: 24px;
+}
+
+/*轉換術四塊與右邊*/
+.four {
+	width: 1039px;
+	height: 588px;
+	display: flex;
+	flex-direction: row;
+	margin-top: 100px;
+	margin-left: 140px;
+	margin-bottom: 100px;
+	text-align: left;
+}
+
+.fourleft {
+	display: flex;
+	flex-wrap: wrap;
+	width: 507px;
+	height: 588px;
+}
+
+.fourleft_img {
+	width: 86px;
+	height: 86px;
+	margin-top: 32px;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 50%;
+	text-align: center;
+}
+
+.fourleft_img_in {
+	padding: 17px;
+}
+
+.fourleft_block {
+	width: 230px;
+	height: 280px;
+	padding-left: 32px;
+	padding-right: 32px;
+	margin-bottom: 28px;
+	box-sizing: border-box;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;
+}
+
+.fourleft_block.one {
+	margin-right: 47px;
+}
+
+.fourright {
+	width: 395px;
+	height: 259px;
+}
+
+.left_title {
+	font-size: 18px;
+	padding-top: 24px;
+	padding-bottom: 16px;
+	font-weight: bold;
+}
+
+.left_introduce {
+	font-size: 16px;
+	width: 165px;
+}
+
+.fourright {
+	margin-left: 137px;
+}
+
+.fourright_title {
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 16px;
+	padding-top: 165px;
+	line-height: 46px;
+}
+
+.fourright_content {
+	font-size: 18px;
+	color: #221E1F;
+	margin-bottom: 24px;
+	line-height: 26px;
+}
+
+.fourright_program {
+	width: 136px;
+	height: 49px;
+	background: #56C4C5;
+	color: #FFFFFF;
+	font-size: 18px;
+	border-radius: 27px;
+	text-align: center;
+	line-height: 49px;
+}
+
+.respond {
+	width: 1088px;
+	margin-left: 140px;
+	margin-bottom: 134px;
+}
+
+.goodre {
+	margin-bottom: 104px;
+}
+
+.evaluations {
+	display: flex;
+	flex-direction: row;
+}
+.respondthree{
+	margin-right: 16px;
+	width: 352px;
+	height: 304px;
+}
+.responddown {
+	margin-right: 16px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.respond_head {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	box-shadow: 0px 2px 10px #00000014;
+	position: absolute;
+	left: 32px;
+	top:-55px;
+}
+
+.respond_shadow {
+	width: 352px;
+	height: 248px;
+	box-shadow: 0px 2px 10px #00000014;
+	border-radius: 12px;
+	display: flex;
+	flex-direction: column;
+	margin-right: 16px;
+}
+
+.respond_content {
+	margin-left: 32px;
+	margin-right: 32px;
+	padding-top: 48px;
+	padding-bottom: 24px;
+	text-align: left;
+	border-bottom: 1px solid #DDDDDD;
+	line-height: 24px;
+}
+.respond_company_total{
+	margin-left: 32px;
+	text-align: left;
+	position: relative;
+}
+.respond_company_title{
+	padding-top: 24px;
+	padding-bottom: 8px;
+	color: #221E1F;
+	font-size: 16px;
+	font-weight: bold;
+}
+.respond_company_name{
+	font-size: 16px;
+}
+.respond_company_star_one{
+	position: absolute;
+	right: 36.23px;
+	bottom: 0px;
+}
+.respond_company_star_two{
+	position: absolute;
+	right: 61.23px;
+	bottom: 0px;
+}
+.respond_company_star_three{
+	position: absolute;
+	right: 86.23px;
+	bottom: 0px;
+}
+.respond_company_star_four{
+	position: absolute;
+	right: 111.23px;
+	bottom: 0px;
+}
+.respond_company_star_five{
+	position: absolute;
+	right: 136.23px;
+	bottom: 0px;
+}
+footer{
+	width: 1366px;
+	height: 559px;
+	margin-top: 134px;
+	background-image: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/f70f00178a7f0baa31e9c01634303d8562cfe93a/chatTalker_images/home_footer.svg");
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+}
+
+.footer_title{
+	font-size: 32px;
+	font-weight: bold;
+	padding-top: 260px;
+	padding-bottom: 48px;
+}
+
+.program_bottom {
+	width: 136px;
+	height: 49px;
+	background: #56C4C5;
+	color: #FFFFFF;
+	font-size: 18px;
+	border-radius: 27px;
+	text-align: center;
+	line-height: 49px;
+	margin-bottom: 100px;
+}
+
+.copyright{
+	width: 1366px;
+	height: 56px;
+	background: #F5F5F5;
+	font-size: 16px;
+	text-align: center;
+	line-height: 56px;
+}
