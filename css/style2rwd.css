@@ -224,7 +224,7 @@ header {
 
 
 .content {
-    width: 65%;
+    max-width: 909px;
     margin: 0 auto;
     text-align: center;
 }
@@ -415,7 +415,7 @@ header {
 }
 
 footer {
-    width: 66%;
+    max-width: 909px;
     margin-top: 100px;
     margin-left: auto;
     margin-right: auto;
